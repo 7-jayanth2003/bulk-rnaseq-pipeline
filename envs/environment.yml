@@ -1,0 +1,11 @@
+name: rnaseq
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - r-base
+  - r-tidyverse
+  - r-pheatmap
+  - r-ggrepel
+  - bioconductor-deseq2
